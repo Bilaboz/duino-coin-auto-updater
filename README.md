@@ -1,6 +1,7 @@
 # Duino-Coin Auto Updater
 
 Check https://duinocoin.com
+
 Discord: https://discord.gg/k48Ht5y
 
 ## Installation
