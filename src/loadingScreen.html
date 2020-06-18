@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Loading</title>
+    </head>
+
+    <body >
+
+        <h2 style="padding: 180px 0; text-align: center;">Loading...</h2>
+
+        <div class="aligner">
+            <div class="loader"></div>
+        </div>
+
+        <br><br>
+
+        <p style= "text-align: center; font-size: small;">Duino-Coin Auto updater © Bilaboz 2020</p>
+
+    </body>
+
+    <script defer src="loadingScreen.js"> </script>
+
+    <style>
+        .loader {
+            border: 13px solid #f3f3f3;
+            border-top: 13px solid #3498db;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .aligner {
+            position: absolute;
+            margin: 0;
+            top: 55%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</html>

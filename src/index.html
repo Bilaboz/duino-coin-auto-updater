@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script defer src="mainWindow.js"></script>
+        
+        <title>Duino-Coin Auto Updater</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1 class="notification is-primary title has-text-centered">Duino-Coin Auto Updater</h2>
+        </div>
+
+        <section class="section">
+            <div class="columns">
+                <div class="column">
+                    <div class="notification subtitle is-success">
+                        <p style="display: inline;">Latest release found: <p id="tag" style="display: inline;"></p></p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="notification subtitle is-info">
+                        <a id="link">Release description</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <div class="box">
+            <h2 class="subtitle notification">Choose platform</h2>
+            <div class="columns has-text-centered container">
+                <div class="column">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Windows_logo_%E2%80%93_2012_%28dark_blue%29.svg/1200px-Windows_logo_%E2%80%93_2012_%28dark_blue%29.svg.png" width="50">
+                </div>
+                <div class="column">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="50">
+                </div>
+                <div class="column">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="50">
+                </div>
+            </div>
+            
+            <div class="columns has-text-centered container">
+                <div class="column">
+                    <button class="button is-primary" id="winB">Windows</button>
+                </div>
+                <div class="column">
+                    <button class="button is-primary" id="linB">Linux</button>
+                </div>
+                <div class="column">
+                    <button class="button is-primary" id="pyB">Source Code</button>
+                </div>
+            </div>
+        </div>
+        
+        <div style="left: 12px; position:relative;">
+            <textarea id="log" rows="8" cols="120" readonly>Log:</textarea>
+        </div>
+
+    </body>
+
+</html>
