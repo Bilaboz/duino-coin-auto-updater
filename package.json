@@ -7,7 +7,7 @@
     "adm-zip": "^0.4.14",
     "follow-redirects": "^1.11.0",
     "ncp": "^2.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "sweetalert2": "^9.15.1"
   },
   "devDependencies": {
