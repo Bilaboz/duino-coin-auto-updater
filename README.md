@@ -1,3 +1,6 @@
+# DEPRECATED
+
+
 # Duino-Coin Auto Updater
 
 Check https://duinocoin.com
